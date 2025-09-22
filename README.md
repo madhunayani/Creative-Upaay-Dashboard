@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***
 
-## Available Scripts
+# 🎨 Creative Upaay - Task Management Dashboard
 
-In the project directory, you can run:
+A modern, responsive, and feature-rich task management dashboard built with React. This project is a complete front-end application developed as part of the Creative Upaay Full-Stack Assignment, bringing a professional Figma design to life with a focus on clean UI, robust state management, and a seamless user experience.
 
-### `npm start`
+**Live Demo Link:** [**https://your-deployment-link-here.com**](https://your-deployment-link-here.com) 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ✨ Core Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   **Pixel-Perfect UI** 🎨: Meticulously crafted user interface based on the provided Figma design, using Material-UI for a clean and professional aesthetic.
+*   **Kanban Board View** 📋: A classic three-column Kanban board (`To Do`, `In Progress`, `Done`) for intuitive task organization and workflow visualization.
+*   **Dynamic Task Management** 📝:
+    *   **Add Tasks**: Easily add new tasks to any column via a sleek, interactive modal.
+    *   **Persistent Data**: Tasks are automatically saved to your browser's Local Storage, so your progress is never lost on refresh.
+*   **Multi-Page Navigation** 🗺️: Fully implemented client-side routing using `React Router`, creating a seamless multi-page experience for different sections like Home, Tasks, Members, and Settings.
+*   **Interactive UI Elements** 🖱️: Every button and link is functional, providing users with feedback and a sense of a complete, living application.
+*   **Centralized State Management** 🔄: Built with a robust Redux and `redux-persist` setup for predictable, scalable, and persistent state.
+*   **Fully Responsive** 📱: The application layout is designed to work beautifully on both desktop and mobile devices.
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was built using a modern front-end stack:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   **Framework:** ![React](https://img.shields.io/badge/React-20232A?style=for 
+*   **UI Library:** 
+*   **State Management:** 
+*   **Routing:** ![React Router](https://img.shields.io/badge/React_ 
+*   **Persistence:** `redux-persist`
+*   **Deployment:** ![Vercel](https://img.shields.io/badge/Vercel-000  (or Netlify/Render)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Getting Started
 
-### `npm run eject`
+To get a local copy up and running, follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure you have Node.js and npm installed on your machine.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*   npm
+    ```sh
+    npm install npm@latest -g
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/creative-upaay-dashboard.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd creative-upaay-dashboard
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm start
+    ```
+    Your application will be running at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
